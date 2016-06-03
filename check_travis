@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+# vim: fileencoding=utf-8 ts=4 sts=4 sw=4 et
+
+import sys
+import check_travis
+
+if __name__ == '__main__':
+    sys.exit(check_travis.main())
